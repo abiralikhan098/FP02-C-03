@@ -1,0 +1,650 @@
+@import url('https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+/*===== BASIC =====*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clr {
+    clear: both;
+}
+
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+body {
+    /* overflow: hidden; */
+}
+
+
+/*-- Nav_area --*/
+.navbar {
+    padding: 20px 15px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.nav-logo {
+    width: 130px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0px 10px;
+    color: #dd991d;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+    cursor: pointer;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #dd991d;
+    background: #ffffff;
+}
+
+.navbar-toggler-icon {
+    background-color: rgba(0, 0, 0, 0.644);
+    border-radius: 5px;
+    width: 50px;
+
+}
+
+.black {
+    background: #ffffff;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.black .navbar-nav .nav-item .nav-link {
+    color: #dd991d;
+}
+
+.black .navbar-nav .nav-item .nav-link:hover {
+    color: #ffffff;
+    background: #dd991d;
+}
+
+.click_nav {
+    background: #ffffff;
+    text-align: center;
+}
+
+/*-- Banner Area --*/
+
+.banner_area {
+    background: url(../images/bg-01.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner_overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #00062b4d;
+}
+
+.banner_area .banner_text {
+    text-align: left;
+}
+
+.banner_area .banner_text h1 {
+    padding-top: 180px;
+    font-family: 'Economica', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.banner_area .banner_text p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 25px;
+}
+
+.banner-btn-01 {
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #dd991d;
+    background: transparent;
+    border: 2px solid #dd991d;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 32px;
+    margin-right: 20px;
+    padding: 10px 25px;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.banner-btn-02 {
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #dd991d;
+    background: transparent;
+    border: 2px solid #dd991d;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 32px;
+    padding: 10px 15px;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.banner-btn-01:hover {
+    background: #dd991d;
+    color: #ffffff;
+}
+
+.banner-btn-02:hover {
+    background: #dd991d;
+    color: #ffffff;
+}
+
+/*-- Our Coffees --*/
+
+.our_coffees {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.our_coffees_header {
+    margin-bottom: 70px;
+}
+
+.our_coffees_header h2 {
+    font-family: 'Economica', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #0a0a08;
+}
+
+.our_coffees_header p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #0a0a08;
+}
+
+.our_coffees_item img {
+    width: 60%;
+    border-radius: 50%;
+    border: 10px solid rgba(221, 154, 29, 0.603)
+}
+
+.our_coffees_item h3 {
+    margin-top: 20px;
+    font-family: 'Economica', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    color: #0a0a08;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.our_coffees_item p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #0a0a08;
+}
+
+/*-- Menu --*/
+.menu_area {
+    overflow: hidden;
+    padding-top: 100px;
+}
+
+.left_menu {
+    background: #0a0a08;
+    padding-top: 50px;
+    padding-bottom: 24px;
+}
+
+.menu_header h2 {
+    font-family: 'Economica', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: #dd991d;
+}
+
+.menu_button button {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #dd991d;
+    background: transparent;
+    border: 2px solid #dd991d;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 2px 15px;
+    margin: 25px 5px;
+    margin-bottom: 50px;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.menu_button button:hover {
+    color: #ffffff;
+    background: #dd991d;
+}
+
+.menu_item h3 {
+    font-family: 'Economica', sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.menu_item p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.menu_price {
+    text-align: left;
+}
+
+.menu_price h4 {
+    font-family: 'Economica', sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.menu_price i {
+    color: #d12509;
+}
+
+.right_menu {
+    background: url(../images/side-img-02.jpg);
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+/*-- Our Coffees --*/
+
+.oder_area {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.order_header {
+    margin-bottom: 70px;
+}
+
+.order_header h2 {
+    font-family: 'Economica', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #0a0a08;
+}
+
+.order_header p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #0a0a08;
+}
+
+.order_item img {
+    width: 60%;
+    border-radius: 50%;
+    border: 10px solid rgba(221, 154, 29, 0.603)
+}
+
+.order_item h3 {
+    margin-top: 20px;
+    font-family: 'Economica', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    color: #0a0a08;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.order_item p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #0a0a08;
+}
+
+.order_item button {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #dd991d;
+    background: transparent;
+    border: 2px solid #dd991d;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 2px 15px;
+    margin-bottom: 50px;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.order_item button:hover {
+    background: #dd991d;
+    color: #ffffff;
+}
+
+/*-- Art & NFTs --*/
+
+.art_area {
+    text-align: center;
+    padding-top: 100px;
+    background-color: rgb(241, 241, 241);
+}
+
+.art_header {
+    margin-bottom: 70px;
+}
+
+.art_header h2 {
+    font-family: 'Economica', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #0a0a08;
+}
+
+.art_header p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #0a0a08;
+}
+
+.art_text_01 {
+    background: #fff;
+    padding: 172px 50px;
+    text-align: right;
+}
+
+.art_text_01 h2 {
+    font-family: 'Economica', sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    color: #dd991d;
+}
+
+.art_text_01 p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #0a0a08;
+}
+
+.art_text_02 {
+    background: #fff;
+    padding: 172px 50px;
+    text-align: left;
+}
+
+.art_text_02 h2 {
+    font-family: 'Economica', sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    color: #dd991d;
+}
+
+.art_text_02 p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #0a0a08;
+}
+
+.art_text_03 {
+    background: #fff;
+    padding: 172px 50px;
+    text-align: right;
+}
+
+.art_text_03 h2 {
+    font-family: 'Economica', sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    color: #dd991d;
+}
+
+.art_text_03 p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #0a0a08;
+}
+
+.art_image img {
+    width: 100%;
+    height: 100%;
+}
+
+/*-- Reward Program --*/
+
+.reward_area {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: rgb(241, 241, 241);
+}
+
+.reward_header {
+    margin-bottom: 70px;
+}
+
+.reward_header h2 {
+    font-family: 'Economica', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #0a0a08;
+}
+
+.reward_header p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #0a0a08;
+}
+
+.reward_item img {
+    width: 100%;
+    border: 10px solid rgba(221, 154, 29, 0.603)
+}
+
+.reward_item h3 {
+    margin-top: 20px;
+    font-family: 'Economica', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #0a0a08;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.reward_item p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #0a0a08;
+    margin-bottom: 50px;
+}
+
+.reward_btn button {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #dd991d;
+    background: transparent;
+    border: 2px solid #dd991d;
+    border-radius: 8px;
+    padding: 10px 15px;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.reward_btn button:hover {
+    background: #dd991d;
+    color: #ffffff;
+}
+
+/*-- Contact --*/
+
+.contact_area {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: rgb(241, 241, 241);
+}
+
+.contact_header h2 {
+    font-family: 'Economica', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #0a0a08;
+    margin-bottom: 50px;
+}
+
+.contact_text {
+    text-align: left;
+    padding-top: 60px;
+}
+
+.contact_text i {
+    font-size: 30px;
+    color: #dd991d;
+    margin-bottom: 25px;
+}
+
+.contact_icon_text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #0a0a08;
+}
+
+.contact_form input {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #0a0a08;
+}
+
+.contact_message {
+    padding-bottom: 100px !important;
+}
+
+.contact_form button {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #dd991d;
+    background: transparent;
+    border: 2px solid #dd991d;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 0px;
+    width: 100%;
+    margin-bottom: 50px;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.contact_form button:hover {
+    background: #dd991d;
+    color: #ffffff;
+}
+
+/*-- FOOTER ---*/
+
+.footer_area {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background: #0a0a08;
+}
+
+.footer_area .footer_text p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+
+/*--- BACK TO TOP ---*/
+
+#button {
+    display: inline-block;
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    -webkit-transition: background-color .3s,
+        opacity .5s, visibility .5s;
+    transition: background-color .3s,
+        opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 99;
+    cursor: pointer;
+
+}
+
+#button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: var(--color);
+}
+
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}

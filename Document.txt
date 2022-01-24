@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+    font-family: 'Economica', sans-serif;
+
+    font-family: 'Quicksand', sans-serif;
+
+
+BG Color Code: 
+
+
+
+Text Color Code: 
+
+
+Box Shadow: 
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.7); 
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.7);
+    
