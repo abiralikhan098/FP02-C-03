@@ -127,33 +127,37 @@ body {
 
 .banner-btn-01 {
     text-decoration: none;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    color: #dd991d;
-    background: transparent;
-    border: 2px solid #dd991d;
-    border-radius: 8px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    background: #479c0a;
+    border: none;
+    border-radius: 25px;
     text-decoration: none;
     margin-top: 32px;
     margin-right: 20px;
-    padding: 10px 25px;
+    padding: 10px 35px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
     -webkit-transition: all .3s linear;
     transition: all .3s linear;
 }
 
 .banner-btn-02 {
     text-decoration: none;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    color: #dd991d;
-    background: transparent;
-    border: 2px solid #dd991d;
-    border-radius: 8px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    background: #c90707;
+    border: none;
+    border-radius: 25px;
     text-decoration: none;
     margin-top: 32px;
-    padding: 10px 15px;
+    padding: 10px 25px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
     -webkit-transition: all .3s linear;
     transition: all .3s linear;
 }
